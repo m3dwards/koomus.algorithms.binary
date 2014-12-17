@@ -1,6 +1,6 @@
 (ns koomus.algorithms.binary)
 
-(defn foo
-  "I don't do a whole lot."
+(defn binary-convert
+  "Perform binary conversion on image"
   [x]
-  (println x "Hello, World!"))
+  (bit-not x))

@@ -1,7 +1,10 @@
 (ns koomus.algorithms.binary-test
   (:require [clojure.test :refer :all]
-            [koomus.algorithms.binary :refer :all]))
+            [koomus.algorithms.binary :refer :all]
+            [midje.sweet :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+
+(fact "single pixel should turn black"
+  (binary-convert 0) => 1   
+  
+  )
