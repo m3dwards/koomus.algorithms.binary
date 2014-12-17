@@ -5,6 +5,6 @@
 
 
 (fact "single pixel should turn black"
-  (binary-convert 0) => 1   
+  (binary-convert 2r0) => 2r1   
   
   )
